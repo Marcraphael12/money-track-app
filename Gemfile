@@ -6,6 +6,8 @@ gem 'cancancan', '>= 3.5.0'
 gem 'devise'
 gem 'pry'
 gem 'rails-controller-testing'
+gem 'bootsnap'
+gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.1.2'
