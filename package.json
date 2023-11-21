@@ -8,6 +8,6 @@
     "webpack-dev-server": "3"
   },
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack"
   }
 }
