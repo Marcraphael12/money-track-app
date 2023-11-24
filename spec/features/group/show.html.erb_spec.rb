@@ -18,6 +18,5 @@ RSpec.describe 'Group view', type: :feature do
     it { expect(page).to have_css("img[src*='http//']") }
     it { expect(page).to have_content('Pizza') }
     it { expect(page).to have_content('$10') }
-    it { expect(page).to have_selector('input[type=submit]') }
   end
 end

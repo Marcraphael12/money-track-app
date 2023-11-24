@@ -122,13 +122,14 @@ Install this project with:
 To setup the database, run
 ```sh
 rails db:drop
-db:create db:migrate
+rails db:create
+rails db:migrate
 ```
 
 To run the project, execute the following command:
 
 ```sh
-ruby rails server
+rails server
 ```
 
 ### Run tests
@@ -136,7 +137,7 @@ ruby rails server
 To run tests, run the following command:
 
 ```sh
-  bundle exec rspec
+bundle exec rspec
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
