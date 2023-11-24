@@ -255,7 +255,6 @@ GEM
       tzinfo (>= 1.0.0)
     warden (1.2.9)
       rack (>= 2.0.9)
-    wdm (0.1.1)
     web-console (4.2.1)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -281,6 +280,7 @@ GEM
 PLATFORMS
   x64-mingw-ucrt
   x86_64-linux
+
 DEPENDENCIES
   cancancan
   capybara
@@ -301,7 +301,6 @@ DEPENDENCIES
   spring
   turbolinks (~> 5)
   tzinfo-data
-  wdm (>= 0.1.0)
   web-console (>= 4.1.0)
   webdrivers
   webpacker (~> 5.0)
