@@ -17,8 +17,8 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  database: budget_app
-  username: budget_app
+  username: postgres
+  port: 5432
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
