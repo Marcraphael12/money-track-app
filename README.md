@@ -64,7 +64,7 @@ Money track is a mobile web application where you can manage your budget: you ha
 
 <!-- LIVE DEMO -->
 ## 🚀 Live Demo <a name="live-demo"></a>
-[Money Track](https://money-track-ydnr.onrender.com)
+[Money Track](https://money-track-qzh7.onrender.com)
 [Money Track Video Demo](https://drive.google.com/file/d/1sxLs0jdFtDtLsnSEpwwM82g-_29IjKpH/view?usp=drive_link)
 
 
@@ -96,12 +96,12 @@ In order to run this project you need:
 In desired folder or directory in the CLI, run the command:
 
 ```sh
-git clone git@github.com:Marcraphael12/rails-budget-app.git
+git clone git@github.com:Marcraphael12/money-track-app.git
 ```
 
 Navigate into the cloned folder or repository by running the command:
 ```sh
-cd rails-budget-app
+cd money-track-app
 ```
 
 If VsCode is your default code editor, run:
@@ -121,7 +121,8 @@ Install this project with:
 
 To setup the database, run
 ```sh
-rails db:drop db:create db:migrate
+rails db:drop
+db:create db:migrate
 ```
 
 To run the project, execute the following command:
@@ -135,7 +136,7 @@ ruby rails server
 To run tests, run the following command:
 
 ```sh
-  rspec
+  bundle exec rspec
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

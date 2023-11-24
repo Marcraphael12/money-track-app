@@ -1,10 +1,11 @@
+# frozen_string_literal: true
+
 class GroupsController < ApplicationController
   def new
     @group = Group.new
   end
 
   def index
-    # will print the groups in descending order
     @groups = Group.where(params[:id]).order(created_at: 'DESC')
   end
 
