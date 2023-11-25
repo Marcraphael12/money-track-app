@@ -10,7 +10,7 @@ class GroupsController < ApplicationController
   end
 
   def show
-    @group = Group.find(params[:id])
+    @group = Group.includes(:money_tracks).find(group_id)
     @group_money_tracks = @group.money_tracks.order(created_at: 'DESC')
   end
 
