@@ -145,7 +145,7 @@ bundle exec rspec
 <!-- AUTHORS -->
 
 ## 👥 Author <a name="authors"></a>
-👤 **Emmanuella Adu**
+👤 **Marc raphael**
 
 - GitHub: [@Marcraphael12](https://github.com/Marcraphael12)
 - Twitter: [@MarcRaphael20](https://twitter.com/MarcRaphael20)
